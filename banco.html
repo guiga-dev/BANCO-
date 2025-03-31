@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebac Bank</title>
+    <link rel="stylesheet" href="bank.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Ebac Bank</h1>
+    </header>
+
+    <form>
+        <ul>
+            <li>
+                <input type="text" id="nome" placeholder="Nome">
+                <p id="nome-erro" class="error-message"></p> <!-- Mensagem de erro -->
+            </li>
+            <li><input type="number" id="chave_pix" placeholder="Chave PIX"></li>
+            <li><input type="text" id="valor" placeholder="Valor"></li>
+            <li><input type="text" id="descricao" placeholder="Descrição (opcional)"></li>
+            <li><button id="btn-enviar" type="submit">Enviar</button></li>
+        </ul>
+    </form>
+
+    <p class="success-message"></p>
+    <script src="bancko.js"></script>
+</div>
+</body>
+</html>
